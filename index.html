@@ -1,33 +1,133 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>GCy Sync</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCy Sync - Business Messaging & Membership Management</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #333;
+    }
+    .pricing-container {
+      display: flex;
+      gap: 20px;
+      margin: 30px 0;
+    }
+    .pricing-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1;
+      text-align: center;
+      background: #f9f9f9;
+    }
+    .pricing-card.pro {
+      border-color: #118eea;
+      background: #f0f8ff;
+    }
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .features {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      margin: 20px 0;
+    }
+    .features li {
+      margin-bottom: 8px;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+    }
+    footer a {
+      margin-right: 15px;
+      color: #118eea;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>GCy Sync</h1>
 
-  <p>
-    GCy Sync is a WhatsApp-based business messaging and membership management platform.
-  </p>
+  <header>
+    <h1>GCy Sync</h1>
+    <p><strong>WhatsApp-Based Business Messaging & Membership Management Platform</strong></p>
+  </header>
 
-  <p>
-    We help gyms, tuition centres, workplaces, and service-based businesses manage
-    subscriptions, notifications, and customer communication.
-  </p>
+  <main>
+    <section>
+      <p>
+        GCy Sync helps gyms, tuition centres, workplaces, and service-based businesses manage
+        subscriptions, automated notifications, and seamless customer communication directly via WhatsApp.
+      </p>
+    </section>
 
-  <h3>Payments</h3>
-  <p>
-    Payments are collected for subscription plans and message credits using Razorpay.
-  </p>
+    <!-- CRITICAL FIX: Explicit Pricing Tiers and Services Offered -->
+    <section id="pricing">
+      <h2>Our Pricing Plans</h2>
+      <div class="pricing-container">
+        
+        <!-- Basic Plan -->
+        <div class="pricing-card">
+          <h3>Basic Plan</h3>
+          <div class="price">$5 / month</div>
+          <p>Perfect for small centers getting started.</p>
+          <ul class="features">
+            <li>✓ Up to 500 members managed</li>
+            <li>✓ Basic WhatsApp notifications</li>
+            <li>✓ Core subscription tracking</li>
+            <li>✓ Standard email support</li>
+          </ul>
+        </div>
 
-  <h3>Contact</h3>
-  <p>Email: support@gcysync.com</p>
+        <!-- Pro Plan -->
+        <div class="pricing-card pro">
+          <h3>Pro Plan</h3>
+          <div class="price">$12 / month</div>
+          <p>For growing businesses needing full automation.</p>
+          <ul class="features">
+            <li>✓ Unlimited members managed</li>
+            <li>✓ Priority WhatsApp business messaging</li>
+            <li>✓ Advanced analytics & attendance tracking</li>
+            <li>✓ 24/7 Priority support</li>
+          </ul>
+        </div>
 
-  <h3>Refund Policy</h3>
-  <p>
-    Refunds are evaluated on a case-by-case basis depending on service usage.
-    Please contact support within 7 days for concerns.
-  </p>
+      </div>
+    </section>
+
+    <!-- Payments Section -->
+    <section>
+      <h2>Payments & Security</h2>
+      <p>
+        All payments are securely processed in USD (or local equivalent) via **Razorpay**. Your subscription will automatically renew each month until cancelled.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+      <h2>Contact Us</h2>
+      <p>Have questions? Reach out to our team at: <a href="mailto:support@gcysync.com">support@gcysync.com</a></p>
+    </section>
+  </main>
+
+  <!-- CRITICAL FIX: Mandatory Compliance Links -->
+  <footer>
+    <p>© 2026 GCy Sync. All rights reserved.</p>
+    <a href="/terms">Terms & Conditions</a>
+    <a href="/privacy">Privacy Policy</a>
+    <a href="/refund-policy">Refund & Cancellation Policy</a>
+  </footer>
+
 </body>
 </html>
